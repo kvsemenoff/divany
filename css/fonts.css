@@ -32,3 +32,12 @@
          url('../fonts/arnamu_italic_bold.ttf.gz') format('truetype');
     font-weight: bold;
 }
+@font-face {
+    font-family: 'GaramondBold';
+    src: url('../fonts/GaramondBold/Garamond-Bold.eot');
+    src: url('../fonts/GaramondBold/Garamond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GaramondBold/Garamond-Bold.woff') format('woff'),
+        url('../fonts/GaramondBold/Garamond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
