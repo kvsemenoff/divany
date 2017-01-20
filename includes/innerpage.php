@@ -9,14 +9,43 @@
 							<img src="img/df-cart.jpg" alt="" class="img-responsive">
 						</div>
 						<div class="df-cartproduct__choise df-cartproduct__choise_view">
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart1.jpg" alt=""></a></div>
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart3.jpg" alt=""></a></div>
+							<div id="df-owl">
+								<div class="item">
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart1.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="item">
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart2.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="item">	
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart3.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="item">
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart1.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="item">
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart2.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="item">	
+									<div class="df-cartproduct__prod df-cartproduct__prod_view">
+										<a href="#"><img src="img/df-cart3.jpg" alt=""></a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="df-cartproduct__right df-cartproduct__right_view">
 						<span>Выберите расцветку</span>
-						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color1.jpg"><img src="img/df-color1.jpg" alt=""></a></div>
+						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-cart.jpg"><img src="img/df-cart.jpg" alt=""></a></div>
 						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color2.jpg"><img src="img/df-color2.jpg" alt=""></a></div>
 						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color3.jpg"><img src="img/df-color3.jpg" alt=""></a></div>
 						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color4.jpg"><img src="img/df-color4.jpg" alt=""></a></div>
@@ -41,4 +70,4 @@
 			</div>
 		</div>
 	</div>
-</section>		
+</section>

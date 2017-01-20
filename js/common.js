@@ -73,7 +73,23 @@ $(document).ready(function(){
         });
         $(this).addClass("df-active");       
     });     
-    $('.df-cartproduct__right_view a:first').click();
+   
+
+    $('.df-section_padding').hide();
+    $('.df-input_view').on('click', function(){
+
+        $('.df-section_padding').slideDown();
+
+         var text = $(this).prevAll('.df-models__txt1_view').text();
+         var attr = $(this).parent('.df-models__characteristics').prev('.df-models__img').find('img').attr('src');      
+          $('.df-input_view').each(function(){
+            $('.df-innerh2').text(text);
+             $('.df-cartproduct__col_view a:first').attr('href', attr);
+             $('.df-cartproduct__col_view img:first').attr('src', attr);
+          });   
+           $('.df-cartproduct__right_view a:first').click();
+    });
+
 
     $('.df-cartproduct__right_view a').click(function(){        
         $(".df-cartproduct__right_view a").each(function(){
@@ -87,6 +103,29 @@ $(document).ready(function(){
     $('.df-cartproduct__prod_view a').click(function(e){
         e.preventDefault();
     });
+
+
+    var owl2 = $("#df-owl");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,    
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },       
+          1000:{
+              items:3
+          },
+          1248:{
+              items:4
+          }
+      }
+  });
+
 
 });
 
