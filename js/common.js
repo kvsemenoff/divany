@@ -59,6 +59,35 @@ $(document).ready(function(){
         // $('a[href=#thanks]').trigger('click');
     };
 
+
+    $('.df-cartproduct__right_view a').click(function(evt) {        
+    evt.preventDefault();        
+        var imgPath = $(this).attr('href');         
+        var oldImage = $('.df-cartproduct__img_view img');              
+        var newImage = $('<img src="' + imgPath +'">');         
+         newImage.hide();           
+         $('.df-cartproduct__img_view').prepend(newImage);          
+         newImage.show(200);                    
+        oldImage.hide(200,function(){
+             $(this).remove();
+        });
+        $(this).addClass("df-active");       
+    });     
+    $('.df-cartproduct__right_view a:first').click();
+
+    $('.df-cartproduct__right_view a').click(function(){        
+        $(".df-cartproduct__right_view a").each(function(){
+            if ($(".df-cartproduct__right_view a").hasClass("df-active")) {
+                $(".df-cartproduct__right_view a").removeClass("df-active");
+            }
+        });
+        $(this).addClass("df-active");
+    });
+
+    $('.df-cartproduct__prod_view a').click(function(e){
+        e.preventDefault();
+    });
+
 });
 
 
