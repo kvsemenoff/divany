@@ -37,28 +37,38 @@ body, html{
 	top:0;
 	display:none;
 	z-index:9998; 
-	border:none;
+	border:2px solid #17BBFF;
+	border-radius:15px;
+	text-align: center;
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;
-		border-radius:10px;
-		padding: 10px;
+		border-radius:12px;
+		padding: 60px 25px;
+		text-align: center;
 	}
 	.dd-close{
-		width: 30px;
-		height: 30px;
-		background: red;
+		 font-family: 'arian_amubold';
+		width: 10px;
+		height: 10px;
+		// background: red;
     	// background:url(../img/kres.png) #98BE28 no-repeat center;
     	position:absolute;
-    	top:8px;
-    	right: 8px;
+    	top:6px;
+    	right: 16px;
     	cursor: pointer;
     	transition: 0.5s;
     	border-radius:10px;
     }
-    .dd-close:hover{
-    	// background:url(../img/kres.png) #5F7C0B no-repeat center;
-    }
+}
+input[type="text"]{
+	width: 100%;
+	border:2px solid #17BBFF;
+	border-radius:5px;
+	height: 40px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	font-family: 'arian_amuregular';
 }
 
 .dd-content-spasibo{
@@ -77,6 +87,8 @@ body, html{
 		font-size: 20px;
 	}
 }
+
+
 
 @media only screen and (min-width : 320px) {
 }

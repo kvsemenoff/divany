@@ -27,8 +27,9 @@
 	<div class="dd-form-wrap">
 		<form class="form1" action="#" method="post">
 			<div class="form-wrap-main">
-				<div class="dd-close"></div>
+				<div class="dd-close">Х</div>
 				<div class="dd-input-wrap dd-padding-bottom">
+					<input type="text" name="uname" placeholder="Ваше имя">
 					<input class="my-input phone" type="text" placeholder="Введите телефон" name="phone">
 				</div>
 				<input type="submit" class="form-button" name="submit" value="Заказать звонок">
