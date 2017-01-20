@@ -1,7 +1,7 @@
-<section class="section section_padding">
+<section class="section df-section_padding">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 df-center">
 				<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
 				<div class="df-cartproduct df-cartproduct_view">
 					<div class="df-cartproduct__left df-cartproduct__left_view">
@@ -22,6 +22,21 @@
 						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color4.jpg"><img src="img/df-color4.jpg" alt=""></a></div>
 						<div class="df-cartproduct__col df-cartproduct__col_view"><a href="img/df-color5.jpg"><img src="img/df-color5.jpg" alt=""></a></div>
 					</div>
+				</div>
+
+				<div class="dfinner-text dfinner-text_view">
+					<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-93, ГОСТ 19917-93 и конструкторской документации.</h4>	
+					<div class="dfinner-text__p dfinner-text__p_view">
+						<p>Спальное место: 1950х1540 мм</p>
+						<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+					</div>
+					<p>Цвет массива и отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочные ламели на металлическом каркасе не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+				</div>
+
+				<div class="df-price-box">					
+					<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+					<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+					<input type="submit" value="Заказать" class="df-input_view">
 				</div>
 			</div>
 		</div>
