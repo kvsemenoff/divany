@@ -55,7 +55,8 @@ $(document).ready(function(){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
         $('.window').hide();
-        $('a[href=#thanks]').trigger('click');
+         location = "spasibo.php";
+        // $('a[href=#thanks]').trigger('click');
     };
 
 });
