@@ -36,7 +36,7 @@
 				<div class="df-price-box">					
 					<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 					<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-					<input type="submit" value="Заказать" class="df-input_view">
+					<a href="#log-in" name="modal" class="df-input_view">Заказать</a>
 				</div>
 			</div>
 		</div>

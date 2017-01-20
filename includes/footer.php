@@ -17,8 +17,7 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
-	</section>
-	<a href="#log-in" name="modal">dddddddddddddddddddd</a>
+	</section>	
 </body>
 </html>
 
