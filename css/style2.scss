@@ -111,6 +111,68 @@ font-size:20px;
 	font-size: 16px;
 	font-family: "arian_amuregular";
 }
+.section_padding-db-garant{
+		
+		text-align: center;
+	}
+
+	.db-garant-img{
+		display: inline-block;
+		padding-top: 28px;
+        padding-bottom: 32px;
+	}
+	.section_db-footer-view{
+		padding:30px 0 !important;
+	}
+	.db-garant-one, .db-garant-two{
+		font-size: 16px;
+		font-family: "arian_amuregular";
+		color: #383838;
+	}
+	.db-garant-one{
+		line-height: 19px;
+		padding-bottom: 20px;
+	}
+
+
+	.db-footer-tel{
+	font-size: 26px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.db-garant-two{
+	span{
+		color:#000;
+		font-size: 18px;
+		font-family: "arian_amubold";
+	}
+}
+.section_padding-db-advant{
+	background: url("../img/db-advant-fon.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-family: "arian_amuregular";
+	color:#fff;
+
+		img{
+			// outline: 1px solid red;
+			padding-top: 10px;
+		}
+		span{
+			display: inline-block;
+			font-size: 20px;
+			color: #17bbff;
+			font-family: "arian_amubold";
+			text-transform: uppercase;	
+			padding-top: 15px;
+			padding-bottom: 7px;
+		}
+		p{
+			line-height: 20px;
+
+		}
+	
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -122,13 +184,44 @@ font-size:20px;
 }
 
 @media only screen and (min-width : 992px) {
+
+	
+
+	.section_padding-db-garant{
+		padding:55px 0 !important;
+		text-align: center;
+	}
+
+	.db-garant-img{
+		display: inline-block;
+		padding-top: 28px;
+        padding-bottom: 32px;
+	}
 	.section_db-footer-view{
 		padding:30px 0 !important;
 	}
+	.db-garant-one, .db-garant-two{
+		font-size: 16px;
+		font-family: "arian_amuregular";
+		color: #383838;
+	}
+	.db-garant-one{
+		line-height: 19px;
+		padding-bottom: 20px;
+	}
+
+
 	.db-footer-tel{
 	font-size: 26px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+.db-garant-two{
+	span{
+		color:#000;
+		font-size: 18px;
+		font-family: "arian_amubold";
+	}
 }
 
 	.section_padding-db_header{
@@ -140,24 +233,22 @@ font-size:20px;
 
 	.db-up{
 		position: relative;
+		background: url("../img/db-border-header.png") no-repeat;
+		
 		// outline: 1px solid red;
-		width: 800px;
+		 height: 192px;
+		 width: 810px;
 		margin: 0 auto;
 		h1{
-			display: block;
+			
 			font-size: 74px;
 			// font-family: ;
 			color:#fff;
-			border:1px solid #fff;
-			// outline: 1px solid red;
+	
+			
 		}
 		span{
-			margin-top: -30px;
-			z-index: 999;
-			padding: 0 10px;
-			background: rgba(0, 170, 238, 0.4);
-			left:30px;
-			position: absolute;
+
 			font-size: 47px;
 			color: #17bbff;
 			line-height: 47px;

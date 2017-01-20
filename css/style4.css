@@ -1,8 +1,2 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
-
+body,html{height:100%}.n-header{display:table-row;height:1px}.n-content{display:table-row}.n-footer{display:table-row;height:1px}.n-wrapper{width:100%;height:100%;display:table}.n-content-inner{display:table-cell;padding:15px}.vertical-align{vertical-align:middle}#mask{position:absolute;left:0;top:0;z-index:9000;background-color:#000;width:100%;height:100%;display:none}.window{display:none;position:absolute;left:0;top:0;display:none;z-index:9998;border:none}.window .form-wrap-main{border:1px solid grey;background:#fff;border-radius:10px;padding:10px}.window .dd-close{width:30px;height:30px;background:red;position:absolute;top:8px;right:8px;cursor:pointer;transition:0.5s;border-radius:10px}.dd-content-spasibo{max-width:600px;margin:0 auto;border:2px solid #17BBFF;border-radius:15px;padding:15px;text-align:center}.dd-content-spasibo span:first-child{font-family:'arian_amubold';font-size:25px}.dd-content-spasibo span:last-child{font-family:'arian_amuregular';font-size:20px}
 /*# sourceMappingURL=style4.css.map */

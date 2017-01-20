@@ -18,5 +18,34 @@
 			</div>
 		</div>
 	</section>
+	<a href="#log-in" name="modal">dddddddddddddddddddd</a>
 </body>
 </html>
+
+
+<div id="mask"></div>
+<div id="log-in" class="window">
+	<div class="dd-form-wrap">
+		<form class="form1" action="#" method="post">
+			<div class="form-wrap-main">
+				<div class="dd-close"></div>
+				<div class="dd-input-wrap dd-padding-bottom">
+					<input class="my-input phone" type="text" placeholder="Введите телефон" name="phone">
+				</div>
+				<input type="submit" class="form-button" name="submit" value="Заказать звонок">
+			</div>
+		</form>
+	</div>
+</div>
+<div id="thanks" class="window">
+	<div class="form-wrap-main">
+		<div class="dd-close"></div>
+		<div class="form-title">
+			Спасибо за заявку!
+		</div>
+		<div class="dd-form-txt">
+			Наш менеджер свяжется с вами в ближайшее время!
+		</div>
+	</div>
+</div>
+<a href="#thanks" name="modal"></a>
