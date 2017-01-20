@@ -80,6 +80,38 @@ font-size:20px;
 	}
 }
 
+.section_db-footer-view{
+	background-color: #131012;
+	color:#fff;
+	text-align: center;
+}
+.db-footer-icon-container{
+	display:table;
+	width:115px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	
+}
+.db-footer-tel{
+	font-size: 16px;
+	color:#fff;
+	font-family: "arian_amubold";
+	background: url("../img/db-footer-icon-fon.png")no-repeat top left;
+	padding-left:40px;
+	padding-bottom:15px;
+	padding-top: 7px;
+
+}
+.db-footer-icon-one, .db-footer-icon-two, .db-footer-icon-three{
+	display: table-cell;
+}
+
+.db-footer-text{
+	padding-top: 16px;
+	font-size: 16px;
+	font-family: "arian_amuregular";
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -90,6 +122,15 @@ font-size:20px;
 }
 
 @media only screen and (min-width : 992px) {
+	.section_db-footer-view{
+		padding:30px 0 !important;
+	}
+	.db-footer-tel{
+	font-size: 26px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 	.section_padding-db_header{
 		padding:135px 0 !important;
 		background: url("../img/db-header-fon.jpg") no-repeat;
@@ -101,6 +142,7 @@ font-size:20px;
 		position: relative;
 		// outline: 1px solid red;
 		width: 800px;
+		margin: 0 auto;
 		h1{
 			display: block;
 			font-size: 74px;
