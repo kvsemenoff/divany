@@ -149,6 +149,76 @@
 }
 
 
+
+
+
+/*=============innerpage=============*/
+.df-innerh2{
+	text-align: center;
+}
+.df-cartproduct_view{
+	text-align: center;
+}
+/*left*/
+.df-cartproduct__left_view{
+	max-width: 730px;
+	width: 100%;
+	float: left;
+	border: 1px solid #17bbff;
+	margin-right: 20px;
+}
+.df-cartproduct__img_view{
+	padding: 30px 15px 0 15px;
+	width: 100%;
+	height: 450px;
+	// height: 100%;
+	img{
+		display: none;
+	}
+}
+.df-cartproduct__choise_view{
+	text-align: left;
+	padding: 23px;
+	background: #dcf5ff;	
+}
+.df-cartproduct__prod_view{
+	width: 145px;
+	height: 80px;
+	border: 1px solid #17bbff;
+	display: inline-block;
+	margin-right: 23px;	
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/*right*/
+.df-cartproduct__right_view{
+	float: left;
+	max-width: 210px;
+	width: 100%;
+	span{
+		font-size: 16px;
+		color: #383838;
+		font-family: 'arian_amuregular';
+		display: inline-block;
+		margin-bottom: 14px;
+	}
+}
+.df-cartproduct__col_view{
+	width: 200px;
+	height: 95px;
+	border: 1px solid #17bbff;
+	margin: 0 auto;
+	margin-bottom: 14px;
+	text-align: center;
+	img{
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
