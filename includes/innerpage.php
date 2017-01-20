@@ -9,9 +9,9 @@
 							<img src="img/df-cart.jpg" alt="" class="img-responsive">
 						</div>
 						<div class="df-cartproduct__choise df-cartproduct__choise_view">
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="img/df-cart.jpg"><img src="img/df-cart1.jpg" alt=""></a></div>
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="img/df-cart.jpg"><img src="img/df-cart2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="img/df-cart.jpg"><img src="img/df-cart3.jpg" alt=""></a></div>
+							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart1.jpg" alt=""></a></div>
+							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__prod df-cartproduct__prod_view"><a href="#"><img src="img/df-cart3.jpg" alt=""></a></div>
 						</div>
 					</div>
 					<div class="df-cartproduct__right df-cartproduct__right_view">
@@ -26,23 +26,4 @@
 			</div>
 		</div>
 	</div>
-</section>
-<script>
-	$('.df-cartproduct__prod_view a').click(function(evt) {		
-	evt.preventDefault();		 
-	    var imgPath = $(this).attr('href');	
-        
-	    var oldImage = $('.df-cartproduct__img_view img');		 			
-			
-		var newImage = $('<img src="' + imgPath +'">');
-			
-         newImage.hide();			
-         $('.df-cartproduct__img_view').prepend(newImage);			
-         newImage.show(200);		 
-			
-        oldImage.hide(200,function(){
-             $(this).remove();
-        });		 
-});		
-$('.df-cartproduct__prod_view a:first').click();
-</script>			
+</section>		
