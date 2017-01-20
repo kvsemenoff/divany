@@ -147,6 +147,33 @@ font-size:20px;
 		font-family: "arian_amubold";
 	}
 }
+.section_padding-db-advant{
+	background: url("../img/db-advant-fon.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-family: "arian_amuregular";
+	color:#fff;
+
+		img{
+			// outline: 1px solid red;
+			padding-top: 10px;
+		}
+		span{
+			display: inline-block;
+			font-size: 20px;
+			color: #17bbff;
+			font-family: "arian_amubold";
+			text-transform: uppercase;	
+			padding-top: 15px;
+			padding-bottom: 7px;
+		}
+		p{
+			line-height: 20px;
+
+		}
+	
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -157,6 +184,9 @@ font-size:20px;
 }
 
 @media only screen and (min-width : 992px) {
+
+	
+
 	.section_padding-db-garant{
 		padding:55px 0 !important;
 		text-align: center;
@@ -203,24 +233,22 @@ font-size:20px;
 
 	.db-up{
 		position: relative;
+		background: url("../img/db-border-header.png") no-repeat;
+		
 		// outline: 1px solid red;
-		width: 800px;
+		 height: 192px;
+		 width: 810px;
 		margin: 0 auto;
 		h1{
-			display: block;
+			
 			font-size: 74px;
 			// font-family: ;
 			color:#fff;
-			border:1px solid #fff;
-			// outline: 1px solid red;
+	
+			
 		}
 		span{
-			margin-top: -30px;
-			z-index: 999;
-			padding: 0 10px;
-			background: rgba(0, 170, 238, 0.4);
-			left:30px;
-			position: absolute;
+
 			font-size: 47px;
 			color: #17bbff;
 			line-height: 47px;
