@@ -8,8 +8,8 @@
 						<div class="df-models__img df-models__img_view"><img src="img/df-model1.png" alt=""></div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
-							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+							<span class="df-models__txt2 df-models__txt2_view">61500 руб.</span>
+							<span class="df-models__txt3 df-models__txt3_view">51500 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
@@ -26,8 +26,8 @@
 						<div class="df-models__img df-models__img_view"><img src="img/df-model3.png" alt=""></div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
-							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+							<span class="df-models__txt2 df-models__txt2_view">63500 руб.</span>
+							<span class="df-models__txt3 df-models__txt3_view">53500 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>

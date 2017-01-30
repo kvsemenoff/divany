@@ -310,6 +310,7 @@ a:active, a:focus{
 .dfinner-text__p_view{ 
 	margin-top: 14px;
 	padding-left: 18px;
+	font-family: 'arian_amuregular';
 	p{
 		background-image: url("../img/df-text.png");
 		background-repeat: no-repeat;
@@ -319,7 +320,7 @@ a:active, a:focus{
 		margin-bottom: 12px;
 	}
 }
-.df-input_view{
+.df-input_view, .df-input_view2{
 	font-family: 'arian_amubold';
 	border: none;
 	font-size: 18px;
@@ -338,6 +339,115 @@ a:active, a:focus{
 	vertical-align: top;	
 }
 
+/*==================popup==============*/
+
+
+.df-add-tovar{
+	text-align: center;
+	max-width: 967px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #32c3ff;
+	padding:40px 0 70px 0;
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.df-add__content{
+	margin-top: 21px;
+}
+.df-add__L{
+	max-width: 331px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	padding:  0 10px;
+	span{
+		font-size: 18px;
+		color:#383838;
+		font-family: 'arian_amubold';
+		display: inline-block;
+		margin: 35px 0 25px 0;
+	}
+	input{
+		width: 100%;
+		height: 39px;
+		border: 1px solid #32c3ff;
+		margin-bottom: 9px;
+		display: inline-block;
+		border-radius: 5px;
+		padding-left: 15px;
+   		font-family: 'arian_amuregular';
+	}
+}
+.df-add__img{
+	min-height: 225px;
+	border: 1px solid #32c3ff;
+	padding: 20px 10px 0 10px;
+}
+
+
+.df-all__R{
+	max-width: 505px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 7px;
+}
+.df-table{
+	text-align: center;
+	margin-bottom: 37px;
+}
+.df-row{
+	display: inline-block;
+	max-width: 160px;
+	width: 100%;
+	border: 1px dashed #32c3ff;
+	vertical-align: top;
+}
+
+.df-nameproduct, .df-nameproduct2{
+	font-size: 16px;
+	color: #383838;
+	font-family: 'arian_amuregular';
+	// border-bottom: 1px dashed #32c3ff;
+	display: block;
+	padding-bottom: 12px;
+}
+.df-nameproduct2{
+	padding-top: 12px;
+	padding-bottom: 24px;
+	border:none;
+}
+.dfbold{
+	font-family: 'arian_amubold';
+	padding: 12px 10px 0 10px;
+}
+input{
+	outline: none;		
+}
+input:active{
+	outline: none;		
+}
+.df-send{
+	margin-top: 37px;
+    padding-left: 22px;	
+	label{
+		font-size: 16px;
+		color:#383838;
+		font-family: 'arian_amuregular';
+		display: inline-block;
+		margin-bottom: 19px;
+		margin-left: 5px;
+	}
+}
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -346,6 +456,19 @@ a:active, a:focus{
 }
 
 @media only screen and (min-width : 768px) {
+	.df-row{
+		border: none;
+		border-right: 1px dashed #32c3ff;		
+	}
+	.df-table .df-row:last-child{
+		border-right: none;
+	}
+	.df-nameproduct, .df-nameproduct2{		
+		border-bottom: 1px dashed #32c3ff;		
+	}
+	.df-nameproduct2{		
+		border:none;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -386,9 +509,15 @@ a:active, a:focus{
 		}
 	}
 
-
-
-
+	/*popup*/
+	.df-add__L{		
+		padding:0px;
+	}
+	.df-send{
+		margin-top: 57px;
+	    padding-left: 42px;		
+	}
+	
 }
 
 @media only screen and (min-width : 1248px) {

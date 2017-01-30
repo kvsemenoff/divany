@@ -49,3 +49,53 @@
 	</div>
 </div>
 <a href="#thanks" name="modal"></a>
+
+<!-- popup -->
+
+
+
+<div class="df-add-tovar window" id="log-in7">
+	<div class="dd-close df-close"><img src="img/df-close2.png" alt=""></div>
+	<form class="form1" action="#" method="post">
+		<h2 class="df-h2cap">Заказать</h2>
+		<img src="img/db-garant.png" alt="img" class="img-responsive db-garant-img">
+
+		<div class="df-add__content">
+			<div class="df-add__L">
+				<div class="df-add__img">
+					<img src="img/df-cart.jpg" alt="" class="img-responsive">
+				</div>
+				<span>Контактные данные для связи</span>
+				<input type="text" placeholder="Имя*" required>
+				<input type="text" class="phone" name="phone" placeholder="Телефон*">
+				<input type="email" placeholder="E-mail...">
+			</div>
+			<div class="df-all__R">
+				<div class="df-table">
+					<div class="df-row">
+						<span class="df-nameproduct">Наимерование</span>
+						<span class="df-nameproduct2 dfbold">Аризона Еврософа</span>
+					</div>
+					<div class="df-row">
+						<span class="df-nameproduct">Материал обивки</span>
+						<span class="df-nameproduct2">Союз-М Biege</span>
+					</div>
+					<div class="df-row">
+						<span class="df-nameproduct">Стоимость</span>
+						<span class="df-nameproduct2" id="price">62 000</span>
+					</div>
+				</div>
+
+				<div class="dfinner-text__p dfinner-text__p_view">
+					<p>Спальное место: 1950х1540 мм</p>
+					<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+				</div>
+
+				<div class="df-send">
+					<input type="checkbox" name="check"> <label for="check">С условиями оферты ознакомлен и согласен</label>
+					<input type="submit" class="df-input_view" value="Отправить"> 
+				</div>
+			</div>
+		</div>
+	</form><label for=""></label>
+</div>
