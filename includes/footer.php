@@ -97,5 +97,5 @@
 				</div>
 			</div>
 		</div>
-	</form><label for=""></label>
+	</form>
 </div>
