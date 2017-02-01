@@ -4,6 +4,9 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];
 $text = $_POST['text'];
+$totalprice = $_POST['totalprice'];
+$tovar = $_POST['tovar'];
+
 // Формирование заголовка письма
 $subject  = "Новое сообщение";
 $headers  = "From: info@starlight.space" . "\r\n";
@@ -16,6 +19,8 @@ $msg .= "<h2>Новое сообщение</h2>\r\n";
 $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
 $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
+$msg .= "<p><strong>Товар:</strong> ".$tovar."</p>\r\n";
+$msg .= "<p><strong>Стоимость:</strong> ".$totalprice."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$text."</p>\r\n";
 $msg .= "</body></html>";
 

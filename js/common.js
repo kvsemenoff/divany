@@ -55,25 +55,25 @@ $(document).ready(function(){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
         $('.window').hide();
-         location = "spasibo.php";
+        location = "spasibo.php";
         // $('a[href=#thanks]').trigger('click');
     };
 
 
     $('.df-cartproduct__right_view a').click(function(evt) {        
       evt.preventDefault();        
-        var imgPath = $(this).attr('href');         
-        var oldImage = $('.df-cartproduct__img_view img');              
-        var newImage = $('<img src="' + imgPath +'">');         
-         newImage.hide();           
-         $('.df-cartproduct__img_view').prepend(newImage);          
-         newImage.show(200);                    
-        oldImage.hide(200,function(){
-             $(this).remove();
-        });
-        $(this).addClass("df-active");       
-    });     
-   
+      var imgPath = $(this).attr('href');         
+      var oldImage = $('.df-cartproduct__img_view img');              
+      var newImage = $('<img src="' + imgPath +'">');         
+      newImage.hide();           
+      $('.df-cartproduct__img_view').prepend(newImage);          
+      newImage.show(200);                    
+      oldImage.hide(200,function(){
+       $(this).remove();
+   });
+      $(this).addClass("df-active");       
+  });     
+
 
     $('.df-section_padding').hide();
     $('.df-input_view').on('click', function(){
@@ -85,18 +85,19 @@ $(document).ready(function(){
         var pricetxt = $(this).prevAll('.df-models__txt3_view').text();
         var attr = $(this).parent('.df-models__characteristics').prev('.df-models__img').find('img').attr('src');      
         
-          $('.df-input_view').each(function(){
-                $('.df-innerh2').text(text);
-                $('.df-cartproduct__col_view a:first').attr('href', attr);
-                $('.df-cartproduct__col_view img:first').attr('src', attr);
+        $('.df-input_view').each(function(){
+            $('.df-innerh2').text(text);
+            $('.df-cartproduct__col_view a:first').attr('href', attr);
+            $('.df-cartproduct__col_view img:first').attr('src', attr);
 
-                $('.dfbold').text(text); 
-                $('.df-add__img').find('img').attr('src', attr); 
-                $('.df-price-box').find('.df-models__txt2_view').text(priceold);
-                $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
-                $('#price').text(pricetxt);
-                
-          });   
+            $('.dfbold').text(text); 
+            $('.df-add__img').find('img').attr('src', attr); 
+            $('.df-price-box').find('.df-models__txt2_view').text(priceold);
+            $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
+            $('#price').text(pricetxt);
+            $('.totalprice').val(pricetxt);
+            $('.tovar').val(text);
+        });   
         $('.df-cartproduct__right_view a:first').click();
     });
 
@@ -114,7 +115,7 @@ $(document).ready(function(){
         e.preventDefault();
     });
 
-  
+
 
 
 

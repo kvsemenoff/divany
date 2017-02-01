@@ -66,9 +66,9 @@
 					<img src="img/df-cart.jpg" alt="" class="img-responsive">
 				</div>
 				<span>Контактные данные для связи</span>
-				<input type="text" placeholder="Имя*" required>
+				<input type="text" name="uname" placeholder="Имя*" required>
 				<input type="text" class="phone" name="phone" placeholder="Телефон*">
-				<input type="email" placeholder="E-mail...">
+				<input type="email" name="email" placeholder="E-mail...">
 			</div>
 			<div class="df-all__R">
 				<div class="df-table">
@@ -93,7 +93,11 @@
 
 				<div class="df-send">
 					<input type="checkbox" name="check"> <label for="check">С условиями оферты ознакомлен и согласен</label>
-					<input type="submit" class="df-input_view" value="Отправить"> 
+					<input type="submit" class="df-input_view2" value="Отправить"> 
+
+					<input type="hidden" class="totalprice" name="totalprice" value="">
+					<input type="hidden" class="tovar" name="tovar" value="">
+
 				</div>
 			</div>
 		</div>
